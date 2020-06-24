@@ -1,0 +1,143 @@
+<!-- **************************************
+     Anna O.      w1627858      4.18.2019 
+     ************************************** -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CISW 370 - Project 1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<link href="css/proj1.css" rel="stylesheet">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body> 
+<h1 style="text-align:center">CISW 370 - Project 1</h1>
+<h2 style="text-align:center">Anna O.</h2>
+<nav>
+ <ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="project2.html">Project 2</a></li>
+	<li><a href="final.html">Final</a></li>
+ </ul>
+</nav>
+<main class="container">
+<h2 style="text-align:center; padding-top:5%;">Images and Alternate Text</h2>
+<p>Alt text refers to invisible description of images and used within an HTML code.
+Alternative text is very important in a way to identify images which have no text associated them. People using screen reader programs to browse the web cannot see or hear what the image represents unless a short label using the alt attributes code to describe the appearance and function of an image on a page.<br>
+<a href="https://www.w3.org/WAI/WCAG21/quickref/?versions=2.1&currentsidebar=%23col_overview&showtechniques=111#text-alternatives">Guideline 1.1 - Text Alternatives</a>. This page provides general guidelines on what kinds of text to use in an Alt attributes discusses alternate text requirements for images.</p>
+<!-- * * * * * * * * article 1 * * * * * * * * -->
+<h2>Informative Image : Example</h2>
+    <article class="main-story">
+		<figure>
+			<p><img src="./images/fplayer.jpg" alt="A football player hands the ball off to another player" width="320" height="228" style="float:left"></p>
+				<figcaption>Player image by <a href="https://pixabay.com/users/keithjj-2328014/">KeithJJ</a> (Pixabay.com)</figcaption>
+		</figure>
+		<div class="info">
+			<h3>This image conveying an impression or emotion.</h3>
+		        <p>
+					This photograph shows a tense football game. It's being used to enhance the impression of some article, for example, that tells the readers about the game.
+				</p>
+			<h4>Code Snippet:</h4>
+				<div class="code">
+					&lt;figure&gt;<br>
+					&lt;img src="./images/fplayer.jpg" alt="A football player hands the ball off to another player" width="320" height="228"&gt;<br>
+					&lt;figcaption&gt;Player image by &lt;a href="https://pixabay.com/users/keithjj-2328014/"&gt;KeithJJa(Pixabay.com)<br>
+					&lt;/figcaption&gt;<br>
+					&lt;/figure&gt;
+				</div> <!-- closing code -->
+		</div> <!-- closing info -->
+    </article>
+
+<!-- * * * * * * * * article 2 * * * * * * * * -->
+<h2>Decorative Image : Example</h2>
+    <article class="main-story">
+		<figure>
+			<p><img src="./images/tropical.jpg" alt="" width="320" height="228" style="float:left"></p>
+				<figcaption>Tropical image by <a href="https://pixabay.com/users/guobangcez-4809431/">guobangcez</a> (Pixabay.com)</figcaption>
+		</figure>
+		<div class="info">
+			<h3>Image used for ambiance (eye-candy).</h3>
+		        <p>
+					This image does not provide additional information to the context of the page in case it used in decorative way. For example, there might be article about an hotels on the Maldives islands. 
+				</p>
+			<h4>Code Snippet:</h4>
+				<div class="code">
+					&lt;figure&gt;<br>
+					&lt;img src="./images/tropical.jpg" alt="" width="320" height="228"&gt;<br>
+					&lt;figcaption&gt;Tropical image by &lt;a href="https://pixabay.com/users/guobangcez-4809431/"&gt;guobangcez(Pixabay.com)<br>
+					&lt;/figcaption&gt;<br>
+					&lt;/figure&gt;
+				</div> <!-- closing code -->
+		</div> <!-- closing info -->
+    </article>
+<br><br><br><br>
+
+<!-- * * * * * * * * article 3 * * * * * * * * -->
+<h2>Functional Image : Example</h2>
+    <article class="main-story">
+		<figure>
+			<p><a href="https://www.youtube.com/"><img src="./images/ytb.png" alt="YouTube Home Page Link" width="300" height="208" style="float:left"></a></p>
+				<figcaption>Icon image by <a href="https://pixabay.com/users/slightly_different-2006397/">slightly_different</a> (Pixabay.com)</figcaption>
+		</figure>
+		<div class="info">
+			<h3>This is stand-alone icon image that has a function.</h3>
+		        <p>
+					In this example, the image follows text within a link to inform users that the link will direct them to the home page. It has the text alternative “YouTube Home Page Link” to convey the meaning of the icon.
+				</p>
+			<h4>Code Snippet:</h4>
+				<div class="code">
+					&lt;figure&gt;<br>
+					&lt;img src="./images/ytb.jpg" alt="YouTube Home Page Link" width="320" height="228"&gt;<br>
+					&lt;figcaption&gt;Icon image by &lt;a href="https://pixabay.com/users/slightly_different-2006397/"&gt;slightly_different(Pixabay.com)<br>
+					&lt;/figcaption&gt;<br>
+					&lt;/figure&gt;
+				</div> <!-- closing code -->
+		</div> <!-- closing info -->
+    </article>
+	
+<!-- * * * * * * * * article 4 * * * * * * * * -->
+<h2>Images of Text : Example</h2>
+    <article class="main-story">
+		<figure>
+			<p><img src="./images/crds.png" alt="Finance and Bank Card accepted" width="320" height="190" style="float:left"></p>
+				<figcaption>Cards image by <a href="https://pixabay.com/users/tumisu-148124/">Tumisu</a> (Pixabay.com)</figcaption>
+		</figure>
+		<div class="info">
+			<h3>Styled text with decorative effect.</h3>
+		        <p>
+					This following image is used to conveys specific cards. The text alternative for this image is the same as the cards' names presented in the image: “Finance and Bank Card accepted”.
+				</p>
+			<h4>Code Snippet:</h4>
+				<div class="code">
+					&lt;figure&gt;<br>
+					&lt;img src="./images/crds.png" alt="Finance and Bank Card accepted" width="320" height="228"&gt;<br>
+					&lt;figcaption&gt;Card image by &lt;a href="https://pixabay.com/users/tumisu-148124/"&gt;Tumisu(Pixabay.com)<br>
+					&lt;/figcaption&gt;<br>
+					&lt;/figure&gt;
+				</div> <!-- closing code -->
+		</div> <!-- closing info -->
+    </article>
+	
+<h3>Contrast and Color Disability</h3>
+<p>To provide legible text and images for anyone with low vision or color deficiencies we have to find colors in a good contrast, for example, contrast between content and the background, or foreground and background.</p>
+<p>WCAG 2.1 guidelines state that colors should have a text-to-background contrast ratio of 4.5:1 for normal text and 3:1 for large text to meet basic <a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">AA requirements</a> or 7:1 for normal text and 4.5:1 for large text to meet the stricter <a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced.html">AAA requirements.</a></p>
+<p><a href="https://userway.org/contrast-checker">Userway.org</a> is a good way to improve aesthetics and accessibility of the website.</p>
+<br>
+<h4 style="color:black">Poor Color Contrast</h4>
+<div class="bad_cntrst">
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+</div>
+<p>This color contrast is poor and fails color contrast checker with contrast ratio 1.81:1</p>
+<h4 style="color:black">Good Color Contrast</h4>
+<div class="good_cntrst">
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+</div>
+<p>Even though the background color the same this color contrast is good. Only changes that was made is a darker color of the foreground. The contrast ratio of this example is 7.45:1</p>
+<br><br><br><br><br><br><br><br>
+</main>
+<footer>
+<br>
+	<a href="mailto:anna@student.com">anna@student.com</a>
+</footer>
+</body>
+</html>

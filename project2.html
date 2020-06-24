@@ -1,0 +1,216 @@
+<!-- **************************************
+     Anna O.      w1627858      4.22.2019 
+     ************************************** -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CISW 370 - Project 2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<link href="css/proj2.css" rel="stylesheet">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="wrapper">
+<a class="skip-main" href="#maincontent">Skip to the content</a> 
+<h1 style="text-align:center">CISW 370 - Project 2</h1>
+<h2 style="text-align:center; padding-bottom: 5%;">Anna O.</h2>
+<nav>
+ <ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="project1.html">Project 1</a></li>
+	<li><a href="final.html">Final</a></li>
+ </ul>
+</nav>
+<main class="container">
+<article class="main-story">
+<h3 id="maincontent">Accessible Data Tables</h3>
+<p>Alt text refers to invisible description of images and used within an HTML code.
+Alternative text is very important in a way to identify images which have no text associated them. People using screen reader programs to browse the web cannot see or hear what the image represents unless a short label using the alt attributes code to describe the appearance and function of an image on a page.<br>
+<a href="https://www.w3.org/WAI/WCAG21/quickref/?versions=2.1&currentsidebar=%23col_overview&showtechniques=111#text-alternatives" target="_blank">Guideline 1.1 - Text Alternatives</a> page provides general guidelines on what kinds of text to use in an Alt attributes and discusses alternate text requirements for images.</p>
+<br><br>
+<p>All color contrasts for <strong>Table 1</strong> pass the WCAG 2 level AAA. The headers of the table have dark blue background and white text and the contrast ratio is 16:1. The background color for each next row of the table is light grey and black text have the contrast ratio of 15.46:1. And for the other rows with white background color and black text contrast ratio is 21:1. And the hover very light shade of blue-magenta color with black text has a color contrast ratio 13.89:1.</p>
+				<!--    TABLE 1  -->
+<table id="speakers">
+  <caption>Student Commencement Speakers</caption>
+  <tr>
+	<th scope="col">ID</th>
+    <th scope="col">Last Name</th>
+    <th scope="col">First Name</th>
+    <th scope="col">City</th>
+	<th scope="col">Course</th>
+    <th scope="col">College ID</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Doe</td>
+    <td>Sylvia</td>
+	<td>Sacramento</td>
+    <td>Accounting</td>
+    <td>SCC</td>
+  </tr>
+    <tr>
+    <td>2</td>
+    <td>Brown</td>
+    <td>Kerry</td>
+	<td>Folsom</td>
+    <td>Business</td>
+    <td>ARC</td>
+  </tr>
+    <tr>
+    <td>3</td>
+    <td>Henry</td>
+    <td>Becki</td>
+	<td>Sacramento</td>
+    <td>Art</td>
+    <td>SCC</td>
+  </tr>
+    <tr>
+    <td>4</td>
+    <td>Harris</td>
+    <td>Rimma</td>
+	<td>Folsom</td>
+    <td>English</td>
+    <td>FLC</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Walsh</td>
+    <td>John</td>
+	<td>Roseville</td>
+    <td>Music</td>
+    <td>SCC</td>
+  </tr>
+    <tr>
+    <td>6</td>
+    <td>Gowens</td>
+    <td>April</td>
+	<td>Sacramento</td>
+    <td>Nursing</td>
+    <td>CRC</td>
+  </tr>
+</table>
+<br><br>
+				
+				<!--    TABLE 2  -->
+<p>All color contrasts for <strong>Table 2</strong> pass the WCAG 2 level AAA. The headers of the table have dark moderate blue background and white text and the contrast ratio of 7.49:1. The background color for each next row of the table is light blue and black text have the contrast ratio of 13.63:1. And for the other rows with white background color and black text contrast ratio is 21:1. And the hover Slightly desaturated cyan color with black text has a color contrast ratio 9.93:1.</p>
+<table id="list">
+<!-- summary="Colunm one has the identification number of the students, other columns show the information about students" -->
+  <caption>Student Commencement Speakers List</caption>
+  <thead>
+  <tr>
+	<th scope="col"><abbr title="Identification Number">ID</abbr></th>
+    <th scope="col">Last Name</th>
+    <th scope="col">First Name</th>
+	<th scope="col">Academic Degree</th>
+	<th scope="col">GPA</th>
+    <th scope="col">City</th>
+	<th scope="col">Course</th>
+    <th scope="col">College ID</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>1</td>
+    <th scope="row">Brown</th>
+    <td>Sylvia</td>
+	<td>Graduate</td>
+	<td>4.2</td>
+	<td>Sacramento</td>
+    <td>Accounting</td>
+    <td>SCC</td>
+  </tr>
+    <tr>
+    <td>2</td>
+    <th scope="row">Doe</th>
+    <td>Kerry</td>
+	<td>Undergraduate</td>
+	<td>4.7</td>
+	<td>Folsom</td>
+    <td>Business</td>
+    <td>ARC</td>
+  </tr>
+    <tr>
+    <td>3</td>
+    <th scope="row">Henry</th>
+    <td>Becki</td>
+	<td>Undergraduate</td>
+	<td>4.9</td>
+	<td>Sacramento</td>
+    <td>Art</td>
+    <td>SCC</td>
+  </tr>
+    <tr>
+    <td>4</td>
+    <th scope="row">Harris</th>
+    <td>Rimma</td>
+	<td>Undergraduate</td>
+	<td>4.7</td>
+	<td>Folsom</td>
+    <td>English</td>
+    <td>FLC</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <th scope="row">Walsh</th>
+    <td>John</td>
+	<td>Graduate</td>
+	<td>4.7</td>
+	<td>Roseville</td>
+    <td>Music</td>
+    <td>SCC</td>
+  </tr>
+    <tr>
+    <td>6</td>
+    <th scope="row">Gowens</th>
+    <td>April</td>
+	<td>Undergraduate</td>
+	<td>3.9</td>
+	<td>Sacramento</td>
+    <td>Nursing</td>
+    <td>CRC</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <th scope="row">Lynch</th>
+    <td>Evan</td>
+	<td>Undergraduate</td>
+	<td>4.9</td>
+	<td>Rocklin</td>
+    <td>Computer Science</td>
+    <td>SCC</td>
+  </tr>
+  </tbody>
+</table>
+<br><br>
+</article>
+
+<article class="main-story">
+<h3>Captioning Video</h3>
+<p>Captioning video content increases accessibility, encourages better engagement, and even improves your search engine optimization. Captioning your videos can have a big effect on how successful they are. There are many benefits of it. For instance, not everyone can hear your video, or some people can located in a loud place or can't turn video sound on. Also, subtitles improve comprehension, so people are more involved in the video while reading the subtitles. Some people may not speak your language, too. Captions can growth your chance of getting noticed and remembered.<br>
+<a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html" target="_blank">Captions (Prerecorded)</a> by World Wide Web Consortium (W3C) regulates all important terms and processes of captions.</p>
+<iframe class="ut" width="560" height="315" src="https://www.youtube.com/embed/0OH9mhZU5lo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</article>
+
+<br><br>
+<article class="main-story">
+<h3>Links and Hypertext</h3>
+<p>To make a website accessible developers also need to use links so that people with disabilities or those who likes to use the tab key can use them approprietly. Link text requires meaningful contrast with surrounding text and there is an additional visual cue when the link receives mouse or keyboard focus.</p>
+<p>W2C clearly identifying and describing the target of the link. Link Purpose can be intent to the link text with its determined context what is described in <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html" target="_blank">W3C Success Criterion 2.4.4.</a></p>
+<h4>Good Hyperlink Name : Example</h4>
+<p><a href="https://www.scc.losrios.edu/instructionalservices/degrees-certificates-courses-transfer-majors/" target="_blank">Programs of Study</a> at Sacramento City College.</p>
+<h4>Bad Hyperlink Name : Example</h4>
+<p style="margin-bottom: 10%">Sacramento City College offers associate degrees, certificates of achievement, and certificates, as well as courses in general education. <a href="https://www.scc.losrios.edu/instructionalservices/degrees-certificates-courses-transfer-majors/" target="_blank">Click here</a> for more information.</p>
+</article>
+
+</main>
+<hr><br>
+<footer>
+<br>
+	<h3>CISW 370 - Project 2</h3><br>
+	<a href="https://www.scc.losrios.edu/buscis/" target="_blank">Business & Computer Information Science Division</a> at Sacramento City College<br>
+	<a href="mailto:anna@student.com">anna@student.com</a>
+</footer>
+</div> <!-- wrapper -->
+</body>
+</html>

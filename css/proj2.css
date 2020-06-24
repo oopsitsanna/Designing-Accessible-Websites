@@ -1,0 +1,223 @@
+/* **************************************
+     Anna O.      w1627858      4.22.2019 
+     ************************************** */
+* {
+  box-sizing: border-box;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*styles for body*/
+.wrapper {
+	border-left: 1px solid #C7F0F0;
+	border-right: 1px solid #C7F0F0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	/*box-shadow: 0 0 0 2rem skyblue;*/
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+body { 
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	color: #333;
+}
+html, body {
+	font: 100% Arial, Helvetica, sans-serif;
+}
+html {
+  margin: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.6;
+	font-weight: lighter;
+}
+.main-story {
+  clear: both;
+  overflow: hidden;
+  padding-top: 2%;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+}
+main h3{
+	font-family: Verdana, sans-serif;
+	text-align:center; 
+	letter-spacing: 2px;
+	text-shadow: 2px 1px #D3F3F3;
+	font-size: 1.7em; /* 30px/16=1.875em */
+	padding-top:5%;
+	padding-bottom: 2%;
+}
+main h4 {
+		padding-top: 5%;
+		}
+title {
+  text-align: center;
+  font-size: 32px;
+  margin: 0;
+  padding: 16px 0;
+  border-bottom: 1px solid #DDD;
+}
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+/*styles for navigation section*/
+nav {
+	width: 100%;
+	text-align:center;
+}
+nav ul {list-style-type: none; }
+nav li { display: inline; }
+nav a { border: 1px inset #64D8D8;
+	width: 10em;
+    display: inline-block;
+	padding: 3px 10px;
+	color: #000000;
+	background-color: #D3F3F3;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: underline; 
+	text-transform: uppercase; 
+}
+nav a:link { color : #000000; }
+nav a:visited { /*color : #218282;*/ color : #000000;
+				background-color: #91B9C3; }
+nav a:hover , a:focus{ color : #cc0000;
+             border: 1px outset #64D8D8; }
+			 
+#speakers { overflow-x:auto;
+	    font-family: Arial, Helvetica, sans-serif;
+		border-collapse: collapse;
+		width: 70%;
+		margin: 2% 5% 5% 5%;
+}
+#speakers td, #speakers th {
+  border: 1px solid #ddd; 
+  padding: 0.5em;
+}
+#speakers tr:nth-child(even){background-color: #eaeaea;}
+
+#speakers tr:hover {background-color: #ceceff;}
+
+#speakers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #000080;
+  color: white;
+} 
+caption {
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #6B6B6B;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-bottom: 0.5em;
+}
+
+#list { overflow-x:auto;
+	    font-family: Arial, Helvetica, sans-serif;
+		border-collapse: collapse;
+		width: 70%;
+		margin: 2% 5% 0 5%;
+}
+#list td, #list th {
+  border: 1px solid #91B9C3; 
+  padding: 0.5em;
+}
+#list tr:nth-child(even){background-color: #AFD7E1;}
+
+#list tr:hover {background-color: #91B9C3;}
+
+#list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #335970;
+  color: white;
+}
+
+article *::selection {
+	background: #fff2a8;
+}
+@media (min-width: 936px)
+{
+html {
+	font-size: 18px;
+}
+}
+@media (min-width: 624px)
+{
+html {
+	font-size: 15.75px;
+}
+}
+@media (min-width: 312px) {
+html {
+	font-size: 13.5px;
+}
+/* #a2a2a2 #375F77 #87AFC7
+tr:nth-of-type {
+	background-color: #006;
+	color: #eaeaea;
+}*/
+main a{color: #238385;
+font-weight: 400;
+transition: all 0.2s ease;}
+}
+/*Skip to main content*/
+a.skip-main {
+    position:left;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+a.skip-main:focus, a.skip-main:active {
+    color: blue;
+    background-color:#000;
+	font-size:1.2em;
+}
+a.skip-main:visited {
+	color: #218282;
+}
+iframe {
+	frameborder: 0;
+}
+.ut {margin-top: 4%;
+	margin-left: 5%;}
+/*line*/
+hr {  
+	height: 8px; border:0;
+    box-shadow: 0 8px 8px -8px #238385 inset;
+}
+footer {  font-size: .70em;
+		font-style: italic; 
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 20px;
+		background-color: white;
+	}
+footer a { text-style: bold;}

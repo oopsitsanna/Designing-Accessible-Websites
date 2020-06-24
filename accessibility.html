@@ -1,0 +1,136 @@
+<!-- **************************************
+     Anna O.      w1627858      5.16.2019 
+     ************************************** -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Accessibility - Rabbit Land</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<link href="css/accessibility.css" rel="stylesheet">
+<link rel="icon" type="image/png" href="images/favicon-32x32.png">
+
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<!-- <link href="https://fonts.googleapis.com/css?family=Rakkas" rel="stylesheet"> -->
+</head>
+
+<body>
+	<div id="navbar">
+	<div class="skipnav"><a href="#maincontent">Skip to main content</a></div>
+	<div class="f_line"></div>
+	<a href="#default" class="logo">Rabbit Land</a>
+	  <div id="navbar-right">
+      <nav>
+        <ul class="header-right">
+          <li><a href="final.html">Home</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="interesting.html">Interesting</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li class="active"><a href="accessibility.html">Accessibility</a></li>
+        </ul>
+      </nav>
+	</div>
+	</div>
+<main>
+	<h1 style="margin-top: 10%" id="maincontent">Accessibility Statement for Rabbit Land Website</h1>
+	<article class="main-story">
+	<p>Rabbit Land strives to create online resource that are accessible to all. We are committed to further reviewing and improving the accessibility of this website. All content is presented as html pages and where documents are provided to download. All images contain alt text descriptions.</p>
+	
+	<h2>Measures to support accessibility</h2>
+	<p>Rabbit Land takes the following measures to ensure accessibility of Rabbit Land website:</p>
+		<ul>
+			<li>Include accessibility as part of our mission statement.</li>
+			<li>Include accessibility throughout our internal policies.</li>
+		</ul>
+	
+	<h2>Conformance status</h2>
+	<p>The <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG)</a>Links to an external site. defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA. Rabbit Land is partially conformant with WCAG 2.0 level AA. Partially conformant means that some parts of the content do not fully conform to the accessibility standard.</p>
+	
+	<h2>Feedback</h2>
+	<p>We welcome your feedback on the accessibility of Rabbit Land. Please let us know if you encounter accessibility barriers on Rabbit Land:</p>
+		<ul>
+			<li>Phone: 916-123-4567</li>
+			<li>E-mail: <a href="mailto:accessibility@rabbitland.com">accessibility@rabbitland.com</a></li>
+			<li>Visitor address: 111 Howe Way, Sacramento CA 95822</li>
+			<li>Postal address: 111 Howe Way, Sacramento CA 95822</li>
+			<li>We try to respond to feedback within 2 business days.</li>
+		</ul>
+	
+	
+	<h2>Compatibility with browsers and assistive technology</h2>
+	<p>Rabbit Land is designed to be compatible with the following assistive technologies:</p>
+		<ul>
+			<li>Chrome, Firefox, and Edge browsers are keyboard accessible and compatible with JAWS screen readers.</li>
+		</ul>
+	<p>Rabbit Land is not compatible with:</p>
+		<ul>
+			<li>Browsers older than 3 major versions.</li>
+		</ul>
+		
+		
+	<h2>Technical specifications</h2>
+	<p>Accessibility of Rabbit Land relies on the following technologies to work with the particular combination of web browser and any assistive technologies or plugins installed on your computer:</p>
+		<ul>
+			<li>HTML</li>
+			<li>WAI-ARIA</li>
+			<li>CSS</li>
+			<li>Java Script</li>
+		</ul>
+	<p>These technologies are relied upon for conformance with the accessibility standards used.</p>
+
+	<h2>Limitations and alternatives</h2>
+	<p>Despite our best efforts to ensure accessibility of Rabbit Land, there may be some limitations. Below is a description of known limitations, and potential solutions. Please contact us if you observe an issue not listed below.</p>
+	<p>Events Calendar plugin used on our website has some links that are missing text. These are empty links that do not provide any user benefit.</p>
+	<h2>Assessment approach</h2>
+	<p>Rabbit Land assessed the accessibility of Rabbit Land Website by the following approaches:</p>
+		<ul>
+			<li>Self-evaluation – the entire site was tested using WAVE Web Accessibility Evaluation Tool, created by WebAIM.org, a third-party authority in web accessibility.  The site is tested periodically to ensure any added or edited content conforms with the latest accessibility guidelines, as reported by the WAVE tool.</li>
+		</ul>
+	
+	<h2>Formal approval of this accessibility statement</h2>
+	<p>This Accessibility Statement is approved by:</p>
+	<p>Rabbit Land
+		<br>Mary Lou
+		<br>Accessibility Guru
+	</p>
+	<p>We aim to respond to accessibility feedback within 2 business days and to propose a solution within 10 business days. You are entitled to escalate a complaint to Rabbit Land, should you be dissatisfied with our response to you.</p>
+	<br>
+	<p>This statement was created on 12 May 2019 using the <a href="https://www.w3.org/WAI/planning/statements/">W3C Accessibility Statement Generator Tool</a></p>
+	</article>
+</main>
+<footer class="footer">
+	Created by Anna &#124; CISW370-Spring19<br>
+	<a href="mailto:anna@student.com">anna@student.com</a>
+	<h3>This page was last modified on:
+		<script>
+		document.write(document.lastModified);
+		</script>
+	</h3>
+</footer>	
+<script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "2px 5px";
+    document.getElementById("logo").style.fontSize = "5px";
+  } else {
+    document.getElementById("navbar").style.padding = "20px 10px";
+    document.getElementById("logo").style.fontSize = "25px";
+  }
+}
+</script>
+<script>
+// navigation active
+$( '#navbar .header-right a' ).on( 'click', function () {
+	$( '#navbar .header-right' ).find( 'li.active' ).removeClass( 'active' );
+	$( this ).parent( 'li' ).addClass( 'active' );
+});
+</script>
+
+</body>
+</html>
